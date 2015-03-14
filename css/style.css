@@ -1,0 +1,198 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body{
+	margin:0;
+}
+
+#banner{
+	background-image: url(../img/banner2.gif);
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+h1{
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	font-size: 60px;
+	color:white;
+	text-align: center;
+	width: 100%;
+	margin: 0;
+	padding-top: 90px;
+	text-shadow: 3px 0px 9px rgba(72, 72, 77, 1);
+}
+
+
+#subtitle{
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	font-size: 20px; 
+	color: white;
+	position: relative;
+	padding-left: 300px;
+	padding-right: 300px;
+	padding-top: 60px;
+	padding-bottom: 150px;
+	text-shadow: 3px 0px 9px rgba(72, 72, 77, 1);
+
+}	
+
+.nav{
+	position: relative;
+	padding-left: 25%;
+	height: 180px;
+	list-style: none;
+}
+
+#guy1after{
+	width: 180px;
+	height: auto;
+	position: relative;
+	padding-right: 20px;
+	padding-left: 30px;
+	display: inline
+}
+
+.container{
+	display:inline-block;
+	margin:0;
+}
+
+/*
+ * style for nav pics
+ */
+.avatar_wrapper{
+	position: relative;
+	display: inline-block;
+	float: left;
+	width: 180px;
+	height: 180px;
+    cursor: pointer;
+}
+
+.avatar{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 180px;
+	opacity: 1;
+	-webkit-transition: all 0.5s ease-in-out; /* For Safari 3.1 to 6.0 */
+    transition: all 0.5s ease-in-out;
+}
+
+.avatar_wrapper:hover .avatar{
+	opacity: 0; /*When I hover the default image becomes invisible*/
+}
+
+.avatar img{
+	width: 180px;
+	height: auto;
+	position: relative;
+	padding-right: 20px;
+	padding-left: 30px;
+	display: inline
+}
+
+.avatar_title{
+	opacity: 0;
+	-webkit-transition: all 0.5s ease-in-out; /* For Safari 3.1 to 6.0 */
+    transition: all 0.5s ease-in-out;
+}
+
+.avatar_wrapper:hover .avatar_title{
+	opacity: 1;/* becomes visible on hover */
+}
+
+.avatar_title img{
+	width: 180px;
+	height: auto;
+	position: relative;
+	padding-right: 20px;
+	padding-left: 30px;
+	display: inline
+}
+
+/*
+ * nav style end
+ */
+
+.imagecontainer{
+	height: auto;
+	width: 180px;
+	position: relative;
+	padding-right: 20px;
+	padding-left: 30px;
+}
+
+.overlay{
+
+	opacity: 0;
+}
+.visible{
+	opacity: 1;
+
+}
+
+h2{
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	padding-bottom: 20px;
+}
+
+h4{
+	font-family: sans-serif;
+	text-align: center;
+	color: #666666;
+	padding-left: 30%;
+	padding-right: 30%;
+	font-size: 20px;
+}
+
+blockquote{
+	font-size: 20px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-style: italic;
+	padding-top: 20px;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-bottom: 60px;
+	opacity: 0.8;
+}
+
+.name{
+	color: gray;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	display: inline-block;
+}
+
+.descriptionRight{
+	display: inline-block;
+	width: 30%;
+	font-size: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+
+}
+.descriptionLeft{
+	display: inline-block;
+	width: 30%;
+	font-size: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+
+
+}
+
+.videocontainer{
+	display: inline-block;
+}
+
+.video{
+	padding-left: 20%;
+	padding-right: 10%;
+}
