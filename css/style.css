@@ -196,3 +196,8 @@ blockquote{
 	padding-left: 20%;
 	padding-right: 10%;
 }
+.credits{
+	text-align: center;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size:12px;
+}
