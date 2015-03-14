@@ -1,2 +1,4 @@
-# Midterm
-总得来说就是很狗屎的一个project，Javascript好难都不会！
+# AfricansInChina
+Video footage and photos belong to Daniel Traub 
+Edited by Isabelle Muge Niu
+Produced for Interactive Design at the Graduate School of Journalism at Columbia University
